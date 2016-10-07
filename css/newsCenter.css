@@ -1,0 +1,106 @@
+/*--整体新闻板块--*/
+
+.news {
+    width: 1200px;
+    height: 452px;
+}
+
+
+/*--左侧主菜单模块--*/
+
+.newsBar {
+    width: 200px;
+    height: 450px;
+    float: left;
+    text-align: center;
+    border: 1px solid #cdcdcd;
+}
+
+.newsBar>h3 {
+    width: 200px;
+    height: 30px;
+    padding: 5px 0;
+    line-height: 30px;
+    border-bottom: 1px solid #cdcdcd;
+    margin-bottom: 10px;
+}
+
+
+/*--左侧菜单列表--*/
+
+.newsList>li>a {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/*--右侧模块--*/
+
+.newsDetail {
+    width: 950px;
+    height: 450px;
+    float: right;
+    padding: 0 15px;
+    margin-left: 15px;
+    border: 1px solid #cdcdcd;
+}
+
+.newsDetail>h3 {
+    width: 950px;
+    height: 30px;
+    padding: 5px 0;
+    line-height: 30px;
+    border-bottom: 3px solid #cdcdcd;
+    margin-bottom: 10px;
+}
+
+
+/*--右侧新闻列表--*/
+
+.detail {
+    width: 950px;
+    height: 310px;
+}
+
+.detail>li {
+    float: left;
+    background-image: url(../images/list.jpg);
+    background-repeat: no-repeat;
+    background-position: 1px center;
+}
+
+.detail>li>a {
+    display: inline-block;
+    width: 945px;
+    height: 30px;
+    padding-left: 5px;
+    line-height: 30px;
+    border-bottom: 1px dotted #cdcdcd;
+}
+
+
+/*--分页按钮--*/
+
+.preNext {
+    width: 350px;
+    height: 40px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+}
+
+.preNext>li {
+    float: left;
+}
+
+.preNext>li>a {
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+    padding: 2px;
+    border: 1px solid #cdcdcd;
+    margin: 0 3px;
+    text-align: center;
+    line-height: 24px;
+}
